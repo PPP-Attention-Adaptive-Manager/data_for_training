@@ -1,0 +1,17 @@
+Dataset: AAM Tucker Outputs — v1
+Generated: 2026-06-01
+Windows: 371
+Users: 12 (Graja, Makki, amrdroid, dem, ghoss, hffz, ignorant, ladabos, layss, mohanned + 2 empty)
+
+Skipped — no NASA-TLX (13 sessions): user filled no questionnaire or session aborted
+Skipped — no graphs (7 sessions): Observer did not generate 120s graph windows,
+    likely pre-graph-pipeline sessions or sessions too short for one 120s window
+
+Notif modality: real ONNX embeddings (onnxruntime installed)
+Switching modality: real GraphSAGE embeddings where encoder.pt exists, zeros otherwise
+Mouse + keyboard: real embeddings from pre-embedders
+
+Files:
+    tucker_slices.npy    (371, 4, 512) float32 — Tucker slice per modality per window
+    nasa_tlx_labels.npy  (371, 9)      float32 — NASA-TLX scores
+    metadata.json        list of 371 dicts — user_id, session_id, window_idx, timestamps
