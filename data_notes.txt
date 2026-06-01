@@ -15,3 +15,15 @@ Files:
     tucker_slices.npy    (371, 4, 512) float32 — Tucker slice per modality per window
     nasa_tlx_labels.npy  (371, 9)      float32 — NASA-TLX scores
     metadata.json        list of 371 dicts — user_id, session_id, window_idx, timestamps
+
+17:14:40  INFO      =================================================================
+17:14:40  INFO      Sessions processed:  43
+17:14:40  INFO      Skipped no label:    19
+17:14:40  INFO      Skipped no graphs:   11
+17:14:40  INFO      Windows total:       640
+17:14:40  INFO      sequences.npy:       43 sequences  →  /home/hefouzinho/tucker_outputs/sequences.npy
+17:14:40  INFO      tucker_slices.npy:   (640, 4, 512)
+17:14:40  INFO      nasa_tlx_labels.npy: (640, 9)
+17:14:40  INFO      =================================================================
+17:14:40  INFO      Sanity check passed.
+(base) hefouzinho@panzer-von-h4ff0z:~/fusion_model$ 

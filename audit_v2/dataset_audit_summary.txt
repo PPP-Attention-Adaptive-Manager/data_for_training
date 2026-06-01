@@ -1,0 +1,95 @@
+=================================================================
+DATASET AUDIT SUMMARY  (v2 — recursive session finder)
+=================================================================
+Total sessions:               73
+Usable (label + graphs):      43
+Has NASA-TLX:                 54
+Has 120s graphs:              43
+  — JSON format (per-window): 46
+  — CSV format (aggregate):   0
+Has dual task probes:         51
+Has mouse data:               72
+Has keyboard data:            62
+
+Per-user breakdown:
+ user_id  sessions_total  sessions_usable  has_label  has_graphs  has_dual_task  total_graphs_120s
+   Graja               3                1          1           1              0               11.0
+   Makki               1                1          1           1              1               15.0
+amrdroid               2                1          1           1              2               16.0
+     dem              23               10         15          10             15              161.0
+gassarra               1                1          1           1              0               16.0
+   ghoss               1                1          1           1              1               15.0
+    hffz               4                3          4           3              3               41.0
+ignorant               1                1          1           1              1               16.0
+ ladabos               1                1          1           1              0               16.0
+   layss               5                5          5           5              1               64.0
+mohanned               2                1          2           1              1               16.0
+ oussama              29               17         21          17             26              253.0
+
+NASA-TLX present but no graphs (recoverable if graphs regenerated):
+  dem / session_20260520_181016_d6e98d
+  dem / session_20260520_185932_829e70
+  dem / session_20260520_205609_c34357
+  dem / session_20260521_174609_da1dd3
+  dem / session_20260521_185046_ac3461
+  hffz / session_20260511_231045_f880e8
+  mohanned / session_20260516_091611_f4cecf
+  oussama / session_20260516_092837_1d31b1
+  oussama / session_20260516_145339_80137b
+  oussama / session_20260525_113028_a89e0d
+  oussama / session_20260525_160833_1e3ee9
+
+Unlabeled sessions with graphs (can't use for supervised training):
+
+Sessions with dual task data:
+  Makki / session_20260525_214154_0a4103  (5 probes  mean_rt=678ms)
+  amrdroid / session_20260516_110318_a84820  (5 probes  mean_rt=514ms)
+  amrdroid / session_20260516_114259_b75425  (5 probes  mean_rt=1440ms)
+  dem / session_20260517_113407_c4efba  (6 probes  mean_rt=2167ms)
+  dem / session_20260517_121410_2c55a5  (6 probes  mean_rt=1030ms)
+  dem / session_20260518_171548_c29868  (5 probes  mean_rt=1769ms)
+  dem / session_20260518_184628_9851e6  (12 probes  mean_rt=1415ms)
+  dem / session_20260518_212527_225c72  (5 probes  mean_rt=1388ms)
+  dem / session_20260519_173652_663f90  (4 probes  mean_rt=1527ms)
+  dem / session_20260519_182012_30aa98  (6 probes  mean_rt=1379ms)
+  dem / session_20260519_190457_ea6bb1  (6 probes  mean_rt=1627ms)
+  dem / session_20260519_210238_473eba  (6 probes  mean_rt=1279ms)
+  dem / session_20260520_181016_d6e98d  (6 probes  mean_rt=1498ms)
+  dem / session_20260520_185932_829e70  (6 probes  mean_rt=1819ms)
+  dem / session_20260520_205609_c34357  (2 probes  mean_rt=1608ms)
+  dem / session_20260521_174609_da1dd3  (5 probes  mean_rt=1235ms)
+  dem / session_20260521_185046_ac3461  (5 probes  mean_rt=1268ms)
+  dem / session_20260521_203934_557784  (6 probes  mean_rt=1579ms)
+  ghoss / session_20260526_191020_35ca55  (5 probes  mean_rt=1821ms)
+  hffz / session_20260511_231045_f880e8  (7 probes  mean_rt=1574ms)
+  hffz / session_20260516_105315_535a79  (3 probes  mean_rt=540ms)
+  hffz / session_20260520_222844_7c414b  (12 probes  mean_rt=1157ms)
+  ignorant / session_20260520_170354_7f6034  (5 probes  mean_rt=1453ms)
+  layss / session_20260525_223533_1be900  (6 probes  mean_rt=287ms)
+  mohanned / session_20260516_091611_f4cecf  (7 probes  mean_rt=894ms)
+  oussama / session_20260516_092837_1d31b1  (5 probes  mean_rt=1359ms)
+  oussama / session_20260516_105702_81c740  (3 probes  mean_rt=854ms)
+  oussama / session_20260516_145339_80137b  (5 probes  mean_rt=931ms)
+  oussama / session_20260516_164308_06d3f7  (6 probes  mean_rt=1135ms)
+  oussama / session_20260517_095040_ccf2be  (4 probes  mean_rt=1945ms)
+  oussama / session_20260517_102454_0566b1  (2 probes)
+  oussama / session_20260517_171415_0ddd81  (5 probes  mean_rt=1903ms)
+  oussama / session_20260523_164010_9f2f78  (6 probes  mean_rt=857ms)
+  oussama / session_20260524_101641_ea7d5a  (5 probes  mean_rt=1001ms)
+  oussama / session_20260524_111728_f646d7  (3 probes)
+  oussama / session_20260524_210800_bf6b4a  (5 probes  mean_rt=1090ms)
+  oussama / session_20260524_224534_09f1ab  (5 probes  mean_rt=1952ms)
+  oussama / session_20260524_231826_9ddcc5  (7 probes  mean_rt=977ms)
+  oussama / session_20260525_094944_eed760  (5 probes  mean_rt=974ms)
+  oussama / session_20260525_113028_a89e0d  (5 probes  mean_rt=796ms)
+  oussama / session_20260525_144151_ee5291  (2 probes  mean_rt=1019ms)
+  oussama / session_20260525_151524_a9c725  (4 probes  mean_rt=916ms)
+  oussama / session_20260525_160833_1e3ee9  (2 probes  mean_rt=2216ms)
+  oussama / session_20260525_192812_b8cdc6  (6 probes  mean_rt=480ms)
+  oussama / session_20260525_200307_b0bbbd  (3 probes  mean_rt=645ms)
+  oussama / session_20260525_204344_7b89ac  (5 probes  mean_rt=713ms)
+  oussama / session_20260525_213926_fd0c5b  (6 probes  mean_rt=1691ms)
+  oussama / session_20260525_223855_25fb7a  (1 probes  mean_rt=2318ms)
+  oussama / session_20260525_232112_57c6bb  (5 probes  mean_rt=1013ms)
+  oussama / session_20260526_102009_2fed19  (3 probes  mean_rt=1492ms)
+  oussama / session_20260526_122927_1c6819  (4 probes  mean_rt=1365ms)
